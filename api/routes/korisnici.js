@@ -108,7 +108,7 @@ router.post("/dodaj", (req, res) => {
                 organisation: req.body.organisation,
                 role: req.body.role
             }).then(() => {
-                const naslov = "Profil sa vasom email adresom je upravo dodat u biblioteku.";
+                const naslov = "Profil sa vasom email adresom je upravo dodan u biblioteku.";
                 const body = `
                     <p> ${req.body.fullName}, dodani ste u biblioteku! </p>
                     <p> Koristite vase podatke za prijavu: <br> <b>username: ${req.body.username}</b><br> <b>password: ${req.body.password}</b> </p>
