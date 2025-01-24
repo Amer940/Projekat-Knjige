@@ -15,7 +15,7 @@ const posaljiEmail = async (recipientEmail, subject, html) => {
     const transporter = nodeMailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: '',
+            user: 'aamer.talo@gmail.com',
             pass: 'obkx hbqc ldpu omhx'
         }, 
     });
