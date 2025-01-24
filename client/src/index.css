@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  *{
+    margin: 0;
+    font-family: "Mona Sans";
+  }
+
+  body{
+    background-color: #B5C2CA;
+  }
+
+  .container {
+    max-width: 1086px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .knjigeGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px; 
+    align-items: start;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  td {
+    font-size:14px;
+  }
+  tr {
+    border-bottom: 1px solid #081225;
+  }
+}
